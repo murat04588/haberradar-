@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Bootstrap 4 tekrar</title>
+    <link rel="stylesheet" href="css/stil.css">
+</head>
+<body>
+
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">HABERRADARI.COM</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">ANA SAYFA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Son Dakika.html">SON DAKİKA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Ekonomi.html">EKONOMİ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Spor.html">SPOR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iletişim.html">İLETİŞİM</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Haber Slider -->
+<div id="newsCarousel" class="carousel slide" data-bs-ride="carousel" style="margin-top: 80px;">
+    <!-- Slider Göstergeleri -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="8" aria-label="Slide 9"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="9" aria-label="Slide 10"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="10" aria-label="Slide 11"></button>
+      <button type="button" data-bs-target="#newsCarousel" data-bs-slide-to="11" aria-label="Slide 12"></button>
+    </div>
+  
+    <!-- Slider İçeriği -->
+    <div class="carousel-inner">
+      <!-- Haberler -->
+      <div class="carousel-item active">
+        <a href="" target="_blank">
+        <img src="img/recep.webp" class="d-block w-100" alt="Haber 1">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cumhurbaşkanı Erdoğan: Suriye'yi şu andaki hale getirdik....</h5>
+          <p>Erdoğan, "Biz Suriye'ye adım atmadık ama Suriye'yi evelallah her yönüyle ele almak suretiyle şu andaki hale getirdik. Şu anda Suriye'de yeniden bir güneş doğuyor." dedi.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/3-sayfa/bahceli-yardim-teklifini-eliyle-reddetti-ferdi-18228748-haberi/" target="_blank">
+        <img src="img/bahçeli.webp" class="d-block w-100" alt="Haber 2">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>BAHÇELİ, TAYFUR'UN MEZARINA TOPRAK ATTI</h5>
+          <p>MHP Genel Başkanı Devlet Bahçeli, Ferdi Tayfur'u son yolculuğunda yalnız bırakmadı.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/dunya/gazze-de-tutulan-israilli-esir-netanyahu-ya-18228928-haberi/" target="_blank">
+        <img src="img/israil.webp" class="d-block w-100" alt="Haber 3">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Kassam Tugayları, Gazze'deki İsrailli esirin son sözlerini yayınladı</h5>
+          <p>Adımı unutmayın, bu videoyu saklayın. İsrail Hükümeti suçlu" dedi.</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/3-sayfa/nevzat-bahtiyar-in-avukati-narin-cinsellik-18228798-haberi/" target="_blank">
+        <img src="img/narin.webp" class="d-block w-100" alt="Haber 4">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Nevzat Bahtiyar'ın avukatı: Narin cinsellik içeren bir eylem nedeniyle öldürüldü</h5>
+          <p>NE OLMUŞTU?</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/3-sayfa/10-yasindaki-cocuk-tiktok-akiminin-kurbani-oldu-18228911-haberi/" target="_blank">
+        <img src="img/çocuk.webp" class="d-block w-100" alt="Haber 5">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>10 yaşındaki çocuk TikTok'taki akımın kurbanı oldu</h5>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/spor/galatasaray-goztepe-macinin-ilk-11-leri-belli-oldu-18228714-haberi/" target="_blank">
+        <img src="img/göz.webp" class="d-block w-100" alt="Haber 6">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Canlı anlatım! Kıran kırana maçta tempo bir an olsun düşmüyor</h5>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/dunya/turkiye-87-savas-gemisi-28-iha-31-savas-18228480-haberi/" target="_blank">
+        <img src="img/türkiye.webp" class="d-block w-100" alt="Haber 7">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Türkiye 87 savaş gemisi, 28 İHA, 31 savaş uçağıyla oraya gidiyor</h5>
+          <p>Yunanlar diken üstünde....</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/dunya/en-yakin-muttefiki-rusya-yi-hayal-kirikligina-18228043-haberi/" target="_blank">
+        <img src="img/rusmilf.webp" class="d-block w-100" alt="Haber 8">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>En yakın müttefiki Rusya'yı hayal kırıklığına uğrattı</h5>
+          <p>Her an savaş meselesi.....!</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/magazin/necla-nazir-cenazedeki-kufurlu-kavgaya-ates-18228496-haberi/" target="_blank">
+        <img src="img/tayfur.webp" class="d-block w-100" alt="Haber 9">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Necla Nazır, cenazedeki küfürlü kavgaya ateş püskürdü</h5>
+          <p>Dikkat çeken kareler...</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/yasam/cuma-vaazinda-muftunun-sozleri-vatandasi-kizdirdi-18227501-haberi/" target="_blank">
+        <img src="img/cuma.webp" class="d-block w-100" alt="Haber 10">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Cuma vaazında müftünün sözleri vatandaşı kızdırdı: Hocam siyaset yapma</h5>
+          <p>Tansiyon düşmedi...</p>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/ekonomi/turkiye-nin-yani-basinda-uyuyan-dev-potansiyel-18228171-haberi/" target="_blank">
+        <img src="img/tür.webp" class="d-block w-100" alt="Haber 11">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Türkiye'nin yanı başında uyuyan dev potansiyel</h5>
+          <p>ORTAK TARİH VE BÖLGESEL İŞBİRLİĞİ FIRSATLARI...</p>
+        </div>
+      </div>
+      
+      <div class="carousel-item">
+        <a href="https://www.haberler.com/3-sayfa/olu-bulunan-rojin-in-babasi-intihar-degil-18229052-haberi/" target="_blank">
+        <img src="img/cennet.webp" class="d-block w-100" alt="Haber 12">
+        </a>
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Ölü bulunan Rojin'in babası: İntihar değil, cinayet.</h5>
+          <p>Hak,Hukkuk ,Adalet...</p>
+        </div>
+      </div>
+    </div>
+  
+    <!-- Geçiş Düğmeleri -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#newsCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#newsCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+  <div class="container my-4">
+    <div class="row g-4" id="news-container">
+      
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <a href="https://www.haberler.com/spor/galatasarayli-taraftarlardan-goztepe-macinda-18228939-haberi/" class="news-link">
+                <div class="news-card card">
+                    <img src="img/alikoç.webp" class="card-img-top" alt="Haber 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Galatasaraylı taraftarlardan Göztepe maçında Fenerbahçelileri çıldırtacak Ali Koç pankartı.</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </a>
+          </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <a href="https://www.haberler.com/guncel/prof-dr-naci-gorur-den-sert-uyari-istanbul-18228550-haberi/" class="news-link">
+              <div class="news-card card">
+                  <img src="img/naci,.webp" class="card-img-top" alt="Haber 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Naci Görür'den çok sert uyarı: İstanbul bizi çökertir beyler şaka etmiyorum</h5>
+                      <p class="card-text"></p>
+                  </div>
+              </div>
+          </a>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <a href="https://www.haberler.com/magazin/nejat-isler-in-sarhos-roportaji-tepki-cekti-18227031-haberi/" class="news-link">
+              <div class="news-card card">
+                  <img src="img/ppppp.webp" class="card-img-top" alt="Haber 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Nejat İşler'in sarhoş halde verdiği röportaj tepki çekti</h5>
+                      <p class="card-text"></p>
+                  </div>
+              </div>
+          </a>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <a href="https://www.haberler.com/guncel/chp-genel-baskani-ozgur-ozel-kars-ta-erdogan-18227963-haberi/" class="news-link">
+              <div class="news-card card">
+                  <img src="img/emekli.webp" class="card-img-top" alt="Haber 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Özel'den tüm siyasi partilere çağrı yaptı</h5>
+                      <p class="card-text"></p>
+                  </div>
+              </div>
+          </a>
+        </div>
+
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <a href="https://www.haberler.com/guncel/cumhurbaskani-yardimcisi-yilmaz-ocak-ayi-18227301-haberi/" class="news-link">
+              <div class="news-card card">
+                  <img src="img/para.webp" class="card-img-top" alt="Haber 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Cumhurbaşkanı Yardımcısı Yılmaz: Ocak ayı içerisinde en düşük emekli maaşı konusunda çalışma yapacağız</h5>
+                      <p class="card-text"></p>
+                  </div>
+              </div>
+          </a>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <a href="https://www.haberler.com/spor/baris-alper-yilmaz-dan-goztepe-macina-damga-vuran-18228997-haberi/" class="news-link">
+              <div class="news-card card">
+                  <img src="img/barış.webp" class="card-img-top" alt="Haber 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Barış Alper Yılmaz'dan Göztepe maçına damga vuran hareket</h5>
+                      <p class="card-text"></p>
+                  </div>
+              </div>
+          </a>
+        </div>
+
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <a href="https://www.haberler.com/spor/yusuf-erdogan-fenerbahce-yi-vallahi-yenecegiz-18226859-haberi/" class="news-link">
+              <div class="news-card card">
+                  <img src="img/maç.webp" class="card-img-top" alt="Haber 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Alanyaspor'a yenilen futbolcunun dudaklarından Fenerbahçe sözleri döküldü</h5>
+                      <p class="card-text"></p>
+                  </div>
+              </div>
+          </a>
+        </div>
+
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="https://www.haberler.com/dunya/dunya-devi-savunma-sirketi-turkiye-de-iha-18227094-haberi/" class="news-link">
+            <div class="news-card card">
+                <img src="img/drn.webp" class="card-img-top" alt="Haber 1">
+                <div class="card-body">
+                    <h5 class="card-title">Dünya devi Türkiye'de İHA fabrikası açıyor</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="https://www.haberler.com/politika/cemil-tugay-dan-eylemdeki-taseron-iscilere-tehdit-18227155-haberi/" class="news-link">
+            <div class="news-card card">
+                <img src="img/parmak.webp" class="card-img-top" alt="Haber 1">
+                <div class="card-body">
+                    <h5 class="card-title">Cemil Tugay'dan eylemdeki taşeron işçilere tehdit: O firmada da çalıştırmam sizi</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </a>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="https://www.haberler.com/saglik/canan-karatay-meslekten-men-talebiyle-hakim-18226901-haberi/" class="news-link">
+            <div class="news-card card">
+                <img src="img/canan.webp" class="card-img-top" alt="Haber 1">
+                <div class="card-body">
+                    <h5 class="card-title">Canan Karatay meslekten men talebiyle hakim karşısına çıkacak</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </a>
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="https://www.haberler.com/magazin/birce-akalay-imaj-degistirdi-sacini-sariya-18228412-haberi/" class="news-link">
+            <div class="news-card card">
+                <img src="img/bircay.webp" class="card-img-top" alt="Haber 1">
+                <div class="card-body">
+                    <h5 class="card-title">Sarışın Birce Akalay'ı gören tanıyamadı</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </a>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="https://www.haberler.com/ekonomi/thy-hostes-maaslari-belli-oldu-dudak-ucuklatan-18226227-haberi/" class="news-link">
+            <div class="news-card card">
+                <img src="img/hos.webp" class="card-img-top" alt="Haber 1">
+                <div class="card-body">
+                    <h5 class="card-title">THY hosteslerinin 2025'teki maaşları belli oldu</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </a>
+      </div>
+
+
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <a href="https://www.haberler.com/yasam/uzmanlardan-turkiye-yeniden-kurak-doneme-18227255-haberi/" class="news-link">
+            <div class="news-card card">
+                <img src="img/mot.webp" class="card-img-top" alt="Haber 1">
+                <div class="card-body">
+                    <h5 class="card-title">Türkiye'nin yeniden kurak döneme gireceği tahmin ediliyor</h5>
+                    <p class="card-text"></p>
+                </div>
+            </div>
+        </a>
+      </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <a href="https://www.haberler.com/ekonomi/edirne-de-hamsi-fiyatlari-dusunce-sira-olustu-18225711-haberi/" class="news-link">
+          <div class="news-card card">
+              <img src="img/hamsi.webp" class="card-img-top" alt="Haber 1">
+              <div class="card-body">
+                  <h5 class="card-title">Hamsinin fiyatını gören kuyruğa girdi! Poşet poşet aldılar
+                  </h5>
+                  <p class="card-text"></p>
+              </div>
+          </div>
+      </a>
+    </div>
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <a href="https://www.haberler.com/dunya/suriye-ye-giden-almanya-ve-fransa-bakanlari-ahmed-18226138-haberi/" class="news-link">
+          <div class="news-card card">
+              <img src="img/suri.webp" class="card-img-top" alt="Haber 1">
+              <div class="card-body">
+                  <h5 class="card-title">Ahmed el Şara kadın bakanın elini sıkmadı</h5>
+                  <p class="card-text"></p>
+              </div>
+          </div>
+      </a>
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <a href="https://www.haberler.com/dunya/pentagon-abd-nin-ayn-el-arab-a-us-kuracagi-18226847-haberi/" class="news-link">
+          <div class="news-card card">
+              <img src="img/abd.webp" class="card-img-top" alt="Haber 1">
+              <div class="card-body">
+                  <h5 class="card-title">Pentagon, ABD'nin Ayn el-Arab'a üs kuracağı iddiası ile ilgili son noktayı koydu</h5>
+                  <p class="card-text"></p>
+              </div>
+          </div>
+      </a>
+    </div>
+
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <a href="https://www.haberler.com/3-sayfa/aracin-icinde-basindan-vurulmus-halde-bulunmustu-18226174-haberi/" class="news-link">
+          <div class="news-card card">
+              <img src="img/baş.webp" class="card-img-top" alt="Haber 1">
+              <div class="card-body">
+                  <h5 class="card-title">Aracın içinde başından vurulmuş halde bulunmuştu: Genç kadının katili en yakını çıktı</h5>
+                  <p class="card-text"></p>
+              </div>
+          </div>
+      </a>
+    </div>
+
+
+    <div class="col-lg-4 col-md-6 col-sm-12">
+      <a href="https://www.haberler.com/dunya/rusya-dan-abd-yi-tedirgin-eden-nukleer-hamlesi-18228050-haberi/" class="news-link">
+          <div class="news-card card">
+              <img src="img/rus2.webp" class="card-img-top" alt="Haber 1">
+              <div class="card-body">
+                  <h5 class="card-title">Rusya'nın nükleer silah kullanma olasılığı ABD'yi tedirgin etti</h5>
+                  <p class="card-text"></p>
+              </div>
+          </div>
+      </a>
+    </div>
+
+
+    </div>
+</div>
+
+  
+
+<footer class="footer py-4 bg-beige">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-2 mb-3">
+              <h5 class="text-danger">HaberRadarı.COM</h5>
+              <p>© Copyright 2024 Tüm Hakları Gizlidir.</p>
+          </div>
+          <div class="col-md-2">
+              <h6>Haberler</h6>
+              <ul class="list-unstyled">
+                  <li><a href="https://www.haberler.com/ekonomi/">Ekonomi</a></li>
+                  <li><a href="https://www.haberler.com/spor/">Spor</a></li>
+                  <li><a href="https://www.haberler.com/magazin/">Magazin</a></li>
+                  <li><a href="https://www.haberler.com/son-dakika/">Son Dakika</a></li>
+                  <li><a href="https://www.haberler.com/kripto-para/">Kripto</a></li>0+
+                  <li><a href="https://www.haberler.com/3.sayfa/">3. Sayfa</a></li>
+                  <li><a href="https://www.haberler.com/dunya/">Dünya</a></li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <h6>Son Dakika</h6>
+              <ul class="list-unstyled">
+                  <li><a href="https://www.haberler.com/saglik/">Sağlık</a></li>
+                  <li><a href="https://www.haberler.com/teknoloji/">Teknoloji</a></li>
+                  <li><a href="https://www.haberler.com/finans/#google_vignette">Finans</a></li>
+                  <li><a href="https://www.haberler.com/dunya-turizim-gunu/">Turizm</a></li>
+                  <li><a href="https://www.haberler.com/turk-yazarlar-birligi/">Yazarlar</a></li>
+                  <li><a href="https://www.haberler.com/yerel-haberler/">Yerel Haberler</a></li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <h6>Politika</h6>
+              <ul class="list-unstyled">
+                  <li><a href="https://www.haberler.com/recep-tayyip-erdogan/">Recep Tayyip Erdoğan</a></li>
+                  <li><a href="https://www.haberler.com/ozgur-ozel/">Özgür Özel</a></li>
+                  <li><a href="https://www.haberler.com/narin-guran/">Narin Güran</a></li>
+                  <li><a href="https://www.haberler.com/donald-trump/">Donald Trump</a></li>
+                  <li><a href="https://www.haberler.com/devlet-bahceli/">Devlet Bahçeli</a></li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <h6>Magazin</h6>
+              <ul class="list-unstyled">
+                  <li><a href="https://www.haberler.com/ferdi-tayfur/">Ferdi Tayfur</a></li>
+                  <li><a href="https://www.haberler.com/hadise/">Hadise</a></li>
+                  <li><a href="https://www.haberler.com/tugce-tayfur/">Tuğçe Tayfur</a></li>
+                  <li><a href="https://www.haberler.com/esra-erol/">Esra Erol</a></li>
+              </ul>
+          </div>
+          <div class="col-md-2">
+              <h6>Spor</h6>
+              <ul class="list-unstyled">
+                  <li><a href="https://www.haberler.com/fatih-terim/">Fatih Terim</a></li>
+                  <li><a href="https://www.haberler.com/senol-gunes/">Şenol Güneş</a></li>
+                  <li><a href="https://www.haberler.com/arda-guler/">Arda Güler</a></li>
+                  <li><a href="https://www.haberler.com/jose-mourinho/">Jose Mourinho</a></li>
+              </ul>
+          </div>
+      </div>
+
+      <hr>
+
+      <div class="d-flex justify-content-between align-items-center">
+          <div>
+              <span>Bizi Takip Edin:</span>
+              <a href="https://news.google.com/publications/CAAqBwgKMNm4nwkwwIlv?hl=tr&gl=TR&ceid=TR%3Atr" class="ms-3"><img src="img/gggggg.svg" alt="Google"></a>
+              <a href="https://www.facebook.com/Haberler" class="ms-3"><img src="img/face.svg" alt="Facebook"></a>
+              <a href="https://x.com/haberler" class="ms-3"><img src="img/tww.svg" alt="Twitter"></a>
+              <a href="https://www.instagram.com/haberlercom/" class="ms-3"><img src="img/inst.svg" alt="Instagram"></a>
+          </div>
+          <div>
+              <span>Uygulamamızı İndirin:</span>
+              <a href="https://apps.apple.com/tr/app/haberler-com/id339144085" class="ms-3"><img src="img/app.svg" alt="App Store"></a>
+              <a href="https://play.google.com/store/apps/details?id=tr.com.yenimedya.haberler" class="ms-3"><img src="img/ggggggggggggg.svg" alt="Google Play"></a>
+          </div>
+      </div>
+  </div>
+</footer>
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

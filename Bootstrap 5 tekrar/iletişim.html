@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Bootstrap 4 tekrar</title>
+    <link rel="stylesheet" href="css/stil.css">
+</head>
+<body >
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">HABERRADARI.COM</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">ANA SAYFA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Son Dakika.html">SON DAKİKA</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Ekonomi.html">EKONOMİ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Spor.html">SPOR</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iletişim.html">İLETİŞİM</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  
+
+
+  <section class="p-5 text-center iletisim">
+    <div class="container">
+        <h2 class="section-title"></h2>
+        <div class="row">
+            <!-- İletişim Formu -->
+            <div class="col-md-6 mb-4">
+                <div class="card-custom">
+                    <h4 class="text-center mb-4">İletişim Formu</h4>
+                    <form action="/submit-form" method="POST" class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Adınız:</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-posta Adresiniz:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Telefon Numaranız:</label>
+                            <input type="tel" class="form-control" id="phone" name="phone">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mesajınız:</label>
+                            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Gönder</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- İletişim Bilgileri -->
+            <div class="col-md-6">
+                <div class="card-custom">
+                    <h4 class="text-center mb-4">İletişim Bilgileri</h4>
+                    <div class="contact-info">
+                        <p><strong>Adres:</strong> Örnek Mahallesi, Örnek Sokak No: 123, İstanbul</p>
+                        <p><strong>Telefon:</strong> +90 123 456 7890</p>
+                        <p><strong>E-posta:</strong> iletisim@HABERRADARI.com</p>
+                    </div>
+                    <h5 class="mt-4">Çalışma Saatlerimiz</h5>
+                    <p><strong>Pazartesi - Cuma:</strong> 09:00 - 18:00</p>
+                    <div class="social-btns text-center mt-4">
+                        <a href="https://www.linkedin.com" target="_blank" class="btn btn-outline-primary">LinkedIn</a>
+                        <a href="https://www.instagram.com" target="_blank" class="btn btn-outline-danger">Instagram</a>
+                        <a href="https://www.twitter.com" target="_blank" class="btn btn-outline-info">Twitter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Google Maps Harita -->
+        <div class="map-container harita">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3059.248389477899!2d28.9783584!3d41.0082376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab7d60c12f9d1%3A0x35d2ef9b881321f5!2zS8Sxcm9wSWWxw5lZWJ3F!2s!5e0!3m2!1str!2str!4v1616595783789!5m2!1str!2str"
+                width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+  <footer class="footer py-4 bg-beige">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 mb-3">
+                <h5 class="text-danger">HaberRadarı.COM</h5>
+                <p>© Copyright 2024 Tüm Hakları Gizlidir.</p>
+            </div>
+            <div class="col-md-2">
+                <h6>Haberler</h6>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.haberler.com/ekonomi/">Ekonomi</a></li>
+                    <li><a href="https://www.haberler.com/spor/">Spor</a></li>
+                    <li><a href="https://www.haberler.com/magazin/">Magazin</a></li>
+                    <li><a href="https://www.haberler.com/son-dakika/">Son Dakika</a></li>
+                    <li><a href="https://www.haberler.com/kripto-para/">Kripto</a></li>
+                    <li><a href="https://www.haberler.com/3.sayfa/">3. Sayfa</a></li>
+                    <li><a href="https://www.haberler.com/dunya/">Dünya</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h6>Son Dakika</h6>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.haberler.com/saglik/">Sağlık</a></li>
+                    <li><a href="https://www.haberler.com/teknoloji/">Teknoloji</a></li>
+                    <li><a href="https://www.haberler.com/finans/#google_vignette">Finans</a></li>
+                    <li><a href="https://www.haberler.com/dunya-turizim-gunu/">Turizm</a></li>
+                    <li><a href="https://www.haberler.com/turk-yazarlar-birligi/">Yazarlar</a></li>
+                    <li><a href="https://www.haberler.com/yerel-haberler/">Yerel Haberler</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h6>Politika</h6>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.haberler.com/recep-tayyip-erdogan/">Recep Tayyip Erdoğan</a></li>
+                    <li><a href="https://www.haberler.com/ozgur-ozel/">Özgür Özel</a></li>
+                    <li><a href="https://www.haberler.com/narin-guran/">Narin Güran</a></li>
+                    <li><a href="https://www.haberler.com/donald-trump/">Donald Trump</a></li>
+                    <li><a href="https://www.haberler.com/devlet-bahceli/">Devlet Bahçeli</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h6>Magazin</h6>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.haberler.com/ferdi-tayfur/">Ferdi Tayfur</a></li>
+                    <li><a href="https://www.haberler.com/hadise/">Hadise</a></li>
+                    <li><a href="https://www.haberler.com/tugce-tayfur/">Tuğçe Tayfur</a></li>
+                    <li><a href="https://www.haberler.com/esra-erol/">Esra Erol</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <h6>Spor</h6>
+                <ul class="list-unstyled">
+                    <li><a href="https://www.haberler.com/fatih-terim/">Fatih Terim</a></li>
+                    <li><a href="https://www.haberler.com/senol-gunes/">Şenol Güneş</a></li>
+                    <li><a href="https://www.haberler.com/arda-guler/">Arda Güler</a></li>
+                    <li><a href="https://www.haberler.com/jose-mourinho/">Jose Mourinho</a></li>
+                </ul>
+            </div>
+        </div>
+  
+        <hr>
+  
+        <div class="d-flex justify-content-between align-items-center">
+            <div>
+                <span>Bizi Takip Edin:</span>
+                <a href="https://news.google.com/publications/CAAqBwgKMNm4nwkwwIlv?hl=tr&gl=TR&ceid=TR%3Atr" class="ms-3"><img src="img/gggggg.svg" alt="Google"></a>
+                <a href="https://www.facebook.com/Haberler" class="ms-3"><img src="img/face.svg" alt="Facebook"></a>
+                <a href="https://x.com/haberler" class="ms-3"><img src="img/tww.svg" alt="Twitter"></a>
+                <a href="https://www.instagram.com/haberlercom/" class="ms-3"><img src="img/inst.svg" alt="Instagram"></a>
+            </div>
+            <div>
+                <span>Uygulamamızı İndirin:</span>
+                <a href="https://apps.apple.com/tr/app/haberler-com/id339144085" class="ms-3"><img src="img/app.svg" alt="App Store"></a>
+                <a href="https://play.google.com/store/apps/details?id=tr.com.yenimedya.haberler" class="ms-3"><img src="img/ggggggggggggg.svg" alt="Google Play"></a>
+            </div>
+        </div>
+    </div>
+  </footer>
+  
+  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" 
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
